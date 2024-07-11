@@ -1,0 +1,62 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 18, 2024, 7:43:51 AM
+    Author     : ACER
+*/
+   .modal-header, .modal-footer {
+            border: none;
+        }
+        .modal-body ul {
+            list-style: none;
+            padding: 0;
+        }
+        .modal-body ul li {
+            padding: 10px;
+            border-bottom: 1px solid #e9ecef;
+            cursor: pointer;
+        }
+        .modal-body ul li:last-child {
+            border-bottom: none;
+        }
+        .modal-body ul li:hover {
+            background-color: #e0e0e0;
+        }
+        .modal-header h4 {
+            color: gray;
+        }
+        .modal-body a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .modal-body a:hover, .modal-body a:visited {
+            color: black;
+        }
+        .modal-body a:active {
+            color: black;
+        }
+
+        /* Adjusted styles for 'Other reasons' link */
+        .modal-body a.other-reasons {
+            color: black; /* Ensure link is black by default */
+        }
+        .modal-body a.other-reasons:hover {
+            color: black; /* Hover color */
+        }
+        .modal-body a.other-reasons:visited {
+            color: black; /* Visited color */
+        }
+        .modal-body a.other-reasons:active {
+            color: black; /* Active color */
+        }
+
+        /* Custom styles for modal dialogs */
+        .modal-dialog {
+            max-width: 100%; /* Set max-width to fill the screen */
+        }
+        .modal-content {
+            width: 100%; /* Set width to fill the modal dialog */
+        }
